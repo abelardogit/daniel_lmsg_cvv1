@@ -1,0 +1,104 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+#curriculum {
+  display: flex;
+  flex-grow: 1;
+}
+
+aside#info-personal {
+  width: 250px;
+  background-color: rgba(8, 25, 58, 0.55);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+aside#info-personal img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+aside#info-personal a {
+  color: #ffcc00;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 5px;
+}
+
+article {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+}
+article:hover {
+  background-color: #f8f8f8;
+  transition: 0.3s ease;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li a {
+  display: block;
+  padding: 5px 0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  color: #777;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  #curriculum {
+    flex-direction: column;
+  }
+
+  aside#info-personal {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
