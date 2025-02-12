@@ -62,8 +62,12 @@ article:hover {
   transition: 0.3s ease;
 }
 
+/*
+Tip para tus listas cuando eliminas los puntos de tus listas
+ul { list-style-type: "✅"; }
+*/
 ul {
-  list-style-type: none;
+  list-style-type: none; /*✅*/
   padding: 0;
 }
 
